@@ -1,0 +1,552 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Raleway:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
+.spacer{
+  display: block;
+  margin-bottom: 755px;
+}
+/*-----tweaks-----*/
+body{
+  font-family: raleway;
+  -webkit-font-smoothing:antialiased;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #20465f;
+    border: 2px solid #ffffff;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb:active {
+    background: #323232;
+    border: 1px solid #A7A7A7;
+    width: 5px;
+}
+
+/*-----typography-----*/
+
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: raleway;
+    margin: 0;
+}
+#banner {
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+
+}
+
+#banner .bg{
+  position: relative;
+  width:100%;
+  min-height: 500px;
+}
+#banner .bg .text {
+  position: relative;
+  margin-top: 150px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+#banner .bg .text h3{
+  position: relative;
+  margin: 0;
+  font-family: raleway;
+  font-size: 28px;
+  color: #000;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.2em;
+}
+#banner .bg .text p{
+  position: relative;
+  font-family: open sans;
+  font-size: 12.5px;
+  text-transform: capitalize;
+  color: #9c9595;
+  padding-top: 20px;
+  text-align: justify;
+}
+#banner .bg .text .button{
+  position: relative;
+  width: 180px;
+  height: 40px;
+  background: #000;
+  font-family: raleway;
+  font-size: 11px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 0;
+  margin-top: 20px;
+  border: 2px solid #000;
+  transition: all .2s ease-in;
+}
+
+#banner .bg .text .button:hover{
+  background: #fff;
+  color: #000;
+}
+#banner .bg  span{
+  position: absolute;
+  font-family: raleway;
+  font-size: 11.5px;
+  top: 220px;
+  left: 0;
+  color: #555;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+}
+#banner .image{
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  background: url('../img/banner.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#banner .rec{
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+}
+#banner .rec .brick{
+  position: absolute;
+  width:50px;
+  height: 100px;
+  background: #000;
+  left: 50%;
+  bottom: 0;
+  margin-left: -25px;
+
+
+}
+#un{
+  position: relative;
+  width: 100%;
+  min-height: 700px;
+}
+#un .image{
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  margin-top: 100px;
+  left: -100px;
+  background: url('../img/swim.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#un .image .rec{
+  position: absolute;
+  width: 45px;
+  height: 120px;
+  background:#27a6c9;
+  top: 0;
+  right: 0;
+}
+#un .image .rec span{
+  position: absolute;
+  font-family: raleway;
+  font-size: 11.5px;
+  top: 49px;
+  left: -10px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+}
+#un .text{
+  position: relative;
+  padding-top: 230px;
+}
+
+#un .text h3{
+  position: relative;
+margin: 0;
+font-family: raleway;
+font-size: 28px;
+color: #000;
+font-weight: 500;
+text-transform: uppercase;
+
+}
+
+#un .text p{
+  position: relative;
+  font-family: open sans;
+  font-size: 12.5px;
+  text-transform: capitalize;
+  color: #9c9595;
+  padding-top: 20px;
+  text-align: justify;
+}
+#un .text .button{
+  position: relative;
+  width: 180px;
+  height: 40px;
+  background: #000;
+  font-family: raleway;
+  font-size: 11px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 0;
+  margin-top: 20px;
+  border: 2px solid #000;
+  transition: all .2s ease-in;
+}
+
+#un .text .button:hover{
+  background: #fff;
+  color: #000;
+}
+#partner {
+  position: relative;
+  width: 100%;
+  min-height: 600px;
+}
+#partner .head {
+  position: relative;
+  padding-top: 100px;
+}
+
+#partner .head h3{
+  position: relative;
+  position: relative;
+margin: 0;
+font-family: raleway;
+font-size: 28px;
+color: #000;
+font-weight: 500;
+text-transform: uppercase;
+}
+#partner .grid{
+  position: relative;
+  padding-top: 30px;
+
+}
+#partner .wrap{
+  position: relative;
+  padding: 10px;
+
+}
+#partner .wrap .image{
+  position: relative;
+  width: 100%;
+  min-height: 150px;
+  background: url('../img/p1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+#contact {
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  background: #f7f7f7;
+}
+
+#contact .box{
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  text-align: center;
+}
+#contact .box .text {
+  position: relative;
+  padding-top: 80px;
+}
+
+#contact .box .text h3{
+  position: relative;
+  margin: 0;
+  font-family: raleway;
+  font-size: 15px;
+  color: #555;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+#contact .box .text h4{
+  position: relative;
+  margin: 0;
+  font-family: raleway;
+  font-size: 11px;
+  color: #555;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding-top: 80px;
+}
+#contact .box .text .icon{
+  position: relative;
+  padding: 0;
+  padding-top: 80px;
+
+}
+#contact .box .text .icon li{
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  height:16px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: url('../img/fb.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#contact .box .text ul{
+  position: relative;
+  list-style: none;
+  padding: 0;
+  padding-top: 50px;
+}
+
+#contact .box .text ul li{
+  position: relative;
+  margin: 0;
+  font-family: raleway;
+  font-size: 13px;
+  color: #666;
+  padding-top: 15px;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+#map {
+  position: relative;
+  width: 100%;
+  min-height: 600px;
+  background: url('../img/map.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#map:after{
+  content: '';
+  position:absolute;
+  top: 0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  background: #000000e0;
+}
+#map .text {
+  position: relative;
+  text-align: center;
+  padding-top: 250px;
+}
+
+#map .text h3{
+  position: relative;
+  font-family: raleway;
+  font-size: 50px;
+  color: #fff;
+  z-index: 1;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+#map .text p{
+  position: relative;
+  font-family: raleway;
+  font-size: 12px;
+  text-transform:capitalize;
+  color: #fff;
+  z-index: 1;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+#num{
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  background: #fff;
+}
+#info{
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  background: #f7f7f7;
+}
+#info .text {
+  position: relative;
+  padding-top: 150px;
+  padding-left: 50px;
+}
+#info h4{
+  position: relative;
+  font-family: roboto condensed;
+  font-size: 80px;
+  color: #555;
+  font-weight: 500;
+  padding-top: 30px;
+}
+#info .grid{
+  position: relative;
+  padding: 10px;
+  margin-top: 20px;
+}
+#info .grid p{
+  position: relative;
+  font-family: open sans;
+  font-size: 12px;
+  color: #555;
+  font-weight: 700;
+}
+#info .grid h3{
+  position: relative;
+  font-family: raleway;
+  font-size: 12px;
+  font-weight: 600;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#info .grid  .img{
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+  background: url('../img/01.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#info .text h3{
+  position: relative;
+    margin: 0;
+    font-family: raleway;
+    font-size: 28px;
+    color: #000;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.2em;
+
+}
+#num .bg{
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  background: #fff;
+}
+#num .bg .text {
+  position: relative;
+  padding-left: 150px;
+}
+
+#num .bg .text h3{
+  position: relative;
+  margin: 0;
+  font-family: roboto condensed;
+  font-size: 400px;
+  font-weight: 600;
+}
+#num .bg .content {
+  position: relative;
+  padding-top: 90px;
+  padding-right: 80px;
+}
+#num .bg .content h3{
+  position: relative;
+    margin: 0;
+    font-family: raleway;
+    font-size: 28px;
+    color: #000;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.2em;
+}
+
+#num .bg .content ul{
+  position: relative;
+  padding: 0;
+  padding-top: 40px;
+  list-style: mone;
+}
+#num .bg .content ul li{
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-left:20px;
+  margin-right: 20px;
+  background: url('../img/fb.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#num .bg .content p{
+  position: relative;
+    font-family: open sans;
+    font-size: 12.5px;
+    text-transform: capitalize;
+    color: #9c9595;
+    padding-top: 20px;
+    text-align: justify;
+}
+#profile{
+  position: relative;
+  width:100%;
+  min-height: 600px;
+  background: #f7f7f7;
+}
+#profile .text {
+  position:relative;
+
+}
+#profile .text span{
+  position: absolute;
+  font-family: roboto condensed;
+  font-size: 100px;
+  color: #eceaea;
+  font-weight: 700;
+}
+#profile .text h3{
+  position: relative;
+margin: 0;
+font-family: raleway;
+font-size: 28px;
+color: #000;
+font-weight: 600;
+text-transform: uppercase;
+padding-top: 100px;
+}
+#profile .image{
+position: relative;
+width: 100%;
+min-height: 400px;
+background: url('../img/b1.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#profile .text h4{
+  position: relative;
+    font-family: open sans;
+    font-size: 12.5px;
+    text-transform: capitalize;
+    color: #9c9595;
+    margin-top: 180px;
+    padding-right: 20px;
+
+}
